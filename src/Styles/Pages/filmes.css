@@ -1,0 +1,91 @@
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.quadro-input{
+    display: flex;
+    align-content: center;
+    margin-top: 30px;
+}
+
+.icone-lupa {
+    margin-left: 155px;
+    color: #1e4263;
+}
+
+.input-filmes{
+    margin-left: 10px;
+    width: 400px;
+    height: 30px;
+    border-radius: 15px;
+    border: 3px solid #692b75b7;
+    color: #1e4263;
+}
+
+.card{
+    width: 448px;
+    margin: 30px;
+    padding: 20px;
+    border: 1px solid #c9c9c9;
+    border-radius: 7px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    background-color: rgb(234, 238, 247);
+}
+
+.card h3 {
+    color: #1e4263;
+}
+
+.card p {
+    color:   #1e4263;
+    font-weight: 100;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.card img {
+    border-radius: 7px 7px 0 0;
+    margin-bottom: 20px;
+    max-width: 400px;
+    height: 600px;
+}
+
+.img-filmes {
+    display: flex;
+    position: relative;
+    padding: 90px;
+    width:  400px ;
+	height: 300px;
+	
+    background: url('../../Assets/searching.svg') no-repeat 80% center;
+    background-size: 360px;
+}
+
+.quadro-filmes {
+    display: flex;
+    align-items: center;
+    width: 965px;
+    height: 290px;
+    color:   #1e4263;
+    border: 1px solid #c9c9c9;
+    border-radius: 7px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+    margin-top: 25px;
+    background: linear-gradient(329.54deg, #357ea0bb 0%, #692b75b7 100%);
+}
+
+.quadro-filmes a {
+    text-decoration: none;
+    color:   #1e4263;
+}
+
+.texto-filmes{
+    margin-left: 95px;
+    width: 370px;
+    text-align: left;
+    font: 800 35px Nunito, sans-serif;
+}
