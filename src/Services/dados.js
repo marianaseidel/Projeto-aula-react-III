@@ -69,7 +69,7 @@ const filmes = [
         id: 12,
         nome: 'Titanic',       
         imagem: 'https://br.web.img2.acsta.net/medias/nmedia/18/89/56/94/20055685.jpg',
-        descricao: 'Romance?Drama | Ano: 1997'
+        descricao: 'Romance/Drama | Ano: 1997'
     }
 ]
 
